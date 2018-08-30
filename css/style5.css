@@ -9,13 +9,11 @@ html,body{
 .container1{
 	display: flex;
 	align-items: center;
-	
 	background-color: black;
     position: fixed;
 	width:100vw;
 	top: 0;
 	margin:0;
-	
 	height:auto;
 }
 .hero-image{
@@ -23,7 +21,6 @@ html,body{
    height: 100%;
    margin: 0px;
    padding:0px;
-   
    margin-top:5%;
    background-size: 100% 100%;
  
@@ -61,9 +58,8 @@ html,body{
 		display: flex;
 		flex-flow: wrap;
 		flex-direction:column;
+		width:100vw;
 		
-		width:100%;
-		border-bottom: 1px solid rgba(105,105,105,0.5);
 	}
 	.logo-left{
 		flex:1;
@@ -81,7 +77,7 @@ html,body{
 	background-color: white;
 	color:black;
 	text-align:center;
-	font-size:400%;
+	font-size:100%;
 	background-size:100% 100%;
 
 	}
@@ -108,7 +104,7 @@ html,body{
 	flex-flow: row wrap;
 }
 .box4left{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/messi1.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../image/messi1.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
@@ -118,7 +114,7 @@ html,body{
 	
 }
 .box4middle{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/ronaldo.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../image/ronaldo.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
@@ -126,20 +122,22 @@ html,body{
 	/*background-repeat: no-repeat;*/
 	background-size: 100% 100%;
 	background-color: #B6CBEB;
+	
 }
 .box4right{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/salah.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../image/salah.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
 	color:#E5AC45;
+	
 	
 	/*background-repeat: no-repeat;*/
 	background-size: 100% 100%;
 }
 @media screen and (max-width: 700px) {
     .container2{
-    		font-size:400%;
+    		font-size:100%;
     }
     .container3{
 
@@ -162,7 +160,7 @@ html,body{
 
     }
 	.container4{
-		background-color: white;
+		
 		display: flex;
 		flex-flow:column wrap;
 	}
