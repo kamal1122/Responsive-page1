@@ -11,21 +11,23 @@ html,body{
 	display: flex;
 	align-items: center;
 	
-	background-color: transparent;
+	background-color: black;
     position: fixed;
 	width:100vw;
 	top: 0;
 	margin:0;
-	border-bottom: 1px solid rgba(105,105,105,0.5);
+	
+	height:auto;
 }
 .hero-image{
    width: 100%;
    height: 100%;
    margin: 0px;
    padding:0px;
-   background-color:black;
    
+   margin-top:5%;
    background-size: 100% 100%;
+ 
   }
 .hero-image img{
     width: 100%;
