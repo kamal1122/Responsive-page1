@@ -61,9 +61,7 @@ html,body{
 		display: flex;
 		flex-flow: wrap;
 		flex-direction:column;
-		top:0;
-		background-color:black;
-		margin:0;
+		
 		width:100%;
 		border-bottom: 1px solid rgba(105,105,105,0.5);
 	}
@@ -141,14 +139,11 @@ html,body{
 }
 @media screen and (max-width: 700px) {
     .container2{
-    	background-color: white;
-	color:black;
-	text-align:center;
-	font-size:400%;
+    		font-size:400%;
     }
     .container3{
 
-      background-color: white;
+      
 	display: flex;
 	flex-flow:column wrap;
      
@@ -157,12 +152,11 @@ html,body{
     .box3left{
 	flex:1;
 	padding: 10px 25px;
-	color:white;
-	background:black;
+	
 	background-size: 100% 100%;
     }.box3right{
 	flex:1;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/balloon.jpg");
+	
 	box-sizing: border-box;
     background-size: 100% 100%;
 
