@@ -24,7 +24,7 @@ html,body{
    margin: 0px;
    padding:0px;
    background-color:black;
-   background-position : all;
+   
    background-size: 100% 100%;
   }
 .hero-image img{
@@ -45,7 +45,7 @@ html,body{
 .header-right li{
 	display: inline-block;
 	margin-right: 2vw;
-	text-shadow: all;
+	
 	}
 .header-right a{
 	text-decoration: none;
@@ -83,6 +83,8 @@ html,body{
 	color:black;
 	text-align:center;
 	font-size:400%;
+	background-size:100% 100%;
+
 	}
 .container3{
 	background-color: white;
@@ -112,8 +114,7 @@ html,body{
 	padding: 10px 25px;
 	flex: 1;
 	color:#E5AC45;
-	background -color: #1A1D89;
-	/*background-repeat: no-repeat;*/
+	
 	background-size: 100% 100%;
 	
 }
@@ -133,7 +134,7 @@ html,body{
 	padding: 10px 25px;
 	flex: 1;
 	color:#E5AC45;
-	background -color: #F4F0BB;
+	
 	/*background-repeat: no-repeat;*/
 	background-size: 100% 100%;
 }
@@ -160,7 +161,7 @@ html,body{
 	background-size: 100% 100%;
     }.box3right{
 	flex:1;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("balloon.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/balloon.jpg");
 	box-sizing: border-box;
     background-size: 100% 100%;
 
